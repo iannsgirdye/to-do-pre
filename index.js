@@ -39,7 +39,7 @@ function createItem(item) {
 	});
 
 	editButton.addEventListener("click", () => {
-		textElement.contentEditable = "true"; /* XSS? */
+		textElement.contentEditable = "true";
 		textElement.focus();
 	});
 
