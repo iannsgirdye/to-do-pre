@@ -51,7 +51,6 @@ function createItem(item) {
 
 	textElement.textContent = item;
 	return clone;
-
 }
 
 function getTasksFromDOM() {
